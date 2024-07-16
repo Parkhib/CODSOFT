@@ -1,4 +1,4 @@
-CREDIT CARD FAULT DETECTION SYSTEM
+CREDIT CARD FRAUD DETECTION SYSTEM
 
 Credit Card Fraud Detection using Logistic Regression on credit card dataset
 As this is a binary classification problem, we will be using Logistic Regression model for model training.
