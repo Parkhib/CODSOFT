@@ -1,8 +1,8 @@
-                                                      CREDIT CARD FAULT DETECTION SYSTEM
+                                                  CREDIT CARD FAULT DETECTION SYSTEM
 Credit Card Fraud Detection using Logistic Regression on credit card dataset
 As this is a binary classification problem, we will be using Logistic Regression model for model training.
 
-                                                      WORKFLOW OF MODEL
+                                                    WORKFLOW OF MODEL
 1.Collection of data
 2.Data Preprocessing
 3.Splitting test and training data
