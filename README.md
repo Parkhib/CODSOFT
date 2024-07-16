@@ -6,20 +6,31 @@ As this is a binary classification problem, we will be using Logistic Regression
 WORKFLOW OF MODEL
 
 1.Collection of data
+
 2.Data Preprocessing
+
 3.Splitting test and training data
+
 4.Model Training
+
 5.Model Evaluation
+
 6.Prediction System
 
 DEPENDECIES USED:
 
 import numpy as np
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import accuracy_score
 
 
@@ -32,15 +43,21 @@ The dataset used for this research is collected from Kaggle at https://www.kaggl
 DATA ANALYSIS
 
 1.shape
+
 2.info()
+
 3.describe()
-4.isnull
+
+4.isnull()
+
 5.count_values()
+
 6.dtypes
 
 SAMPLING THE DATA
 
 0 : Normal transaction
+
 1 : Fraudulent transaction
 
 UNDER-SAMPLING THE DATA
@@ -50,10 +67,12 @@ number of fraudulent transaction is = 492.
 
 MODEL EVALUATION
 
-print("\nAccuracy on Training data ",traning_data_accuracy,"\n")
-print("Accuracy on Training data ",test_data_accuracy)
+print("\nAccuracy on Training data ",traning_data_accuracy,"\n").
+
+print("Accuracy on Training data ",test_data_accuracy).
 
 
-Accuracy on training data = Accuracy :  0.9351969504447268
+Accuracy on training data = Accuracy :  0.9351969504447268.
+
 Accuracy on testing data = Accuracy : 0.9137055837563451.
 
